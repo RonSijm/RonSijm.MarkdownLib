@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.MarkdownLib.DataContracts", "RonSijm.MarkdownLib.DataContracts\RonSijm.MarkdownLib.DataContracts.csproj", "{2270F82E-9621-461B-901F-B5DA2069DC56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.MarkdownLib.Tests", "RonSijm.MarkdownLib.Tests\RonSijm.MarkdownLib.Tests.csproj", "{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.MarkdownLib.Tokenizer", "RonSijm.MarkdownLib.Tokenizer\RonSijm.MarkdownLib.Tokenizer.csproj", "{23A60C02-9272-4E19-B563-F9525ED5C734}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonSijm.MarkdownLib.TokensToHtml", "RonSijm.MarkdownLib.TokensToHtml\RonSijm.MarkdownLib.TokensToHtml.csproj", "{71A552F9-2471-49EC-9FA4-672AAD9D3C9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C89AC529-B1C6-483D-BE22-B065A598E9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0D602EFC-ADB9-4187-B0E3-9F9BDB524764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2270F82E-9621-461B-901F-B5DA2069DC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2270F82E-9621-461B-901F-B5DA2069DC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2270F82E-9621-461B-901F-B5DA2069DC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2270F82E-9621-461B-901F-B5DA2069DC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A60C02-9272-4E19-B563-F9525ED5C734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A60C02-9272-4E19-B563-F9525ED5C734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A60C02-9272-4E19-B563-F9525ED5C734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A60C02-9272-4E19-B563-F9525ED5C734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A552F9-2471-49EC-9FA4-672AAD9D3C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A552F9-2471-49EC-9FA4-672AAD9D3C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A552F9-2471-49EC-9FA4-672AAD9D3C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A552F9-2471-49EC-9FA4-672AAD9D3C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2270F82E-9621-461B-901F-B5DA2069DC56} = {C89AC529-B1C6-483D-BE22-B065A598E9A0}
+		{CBCDA6BE-FDBC-4EE2-AB81-8140256DADED} = {0D602EFC-ADB9-4187-B0E3-9F9BDB524764}
+		{23A60C02-9272-4E19-B563-F9525ED5C734} = {C89AC529-B1C6-483D-BE22-B065A598E9A0}
+		{71A552F9-2471-49EC-9FA4-672AAD9D3C9C} = {C89AC529-B1C6-483D-BE22-B065A598E9A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABAB575D-5E76-42FE-A009-95C8142FBD20}
+	EndGlobalSection
+EndGlobal
